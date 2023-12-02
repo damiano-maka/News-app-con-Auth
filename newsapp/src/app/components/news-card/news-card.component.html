@@ -1,0 +1,11 @@
+<div class="col m-1 p-1">
+  <div class="card">
+    <img [src]="news.urlToImage" class="card-img-top" alt="News Image">
+    <div class="card-body">
+      <h1 class="card-title">{{news.title}}</h1>
+      <p class="card-text">{{news.content}}</p>
+      <p class="card-text"><small class="text-muted">{{news.publishedAt}}</small></p>
+      <p class="card-text btn" (click)="onClick()">Salva Notizia</p>
+    </div>
+  </div>
+</div>

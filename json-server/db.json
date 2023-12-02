@@ -1,0 +1,88 @@
+{
+  "favorites": [],
+  "posts": [
+    {
+      "id": 1,
+      "title": "my first post",
+      "description": "my first post description"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Smartworld.it"
+      },
+      "author": "Antonio Lepore",
+      "title": "TCL lancia in Italia due TV enormi da 98\": specifiche e prezzi",
+      "description": "TCL ha lanciato in Italia due nuovi TV che ampliano la gamma 98 pollici e che si affiancheranno al modello...\r\nL'articolo TCL lancia in Italia due TV enormi da 98\": specifiche e prezzi sembra essere il primo su Smartworld.",
+      "url": "https://www.smartworld.it/news/tcl-tv-98-pollici-specifiche-prezzi.html",
+      "urlToImage": "https://www.smartworld.it/images/2023/11/23/tcl-98p74_1200x675.jpg",
+      "publishedAt": "2023-11-23T07:23:00Z",
+      "content": "TCL ha lanciato in Italia due nuovi TV che ampliano la gamma 98 pollici e che si affiancheranno al modello C73 presentando nel 2022. In particolare, le serie P74 e C98 accolgono i modelli 98P74 e 98C… [+1590 chars]",
+      "id": 2
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Smartworld.it"
+      },
+      "author": "Nicola Ligas",
+      "title": "Le password più usate in Italia nel 2023: scoprite se c'è anche la vostra!",
+      "description": "Le password più comuni e usate in Italia nel 2023: le meno sicure, le più violabili, da cambiare subito, anche nel resto del mondo.\r\nL'articolo Le password più usate in Italia nel 2023: scoprite se c'è anche la vostra! sembra essere il primo su Smartworld.",
+      "url": "https://www.smartworld.it/news/password-non-sicure-italia-2023.html",
+      "urlToImage": "https://www.smartworld.it/images/2023/11/15/password-italia_1200x675.jpeg",
+      "publishedAt": "2023-11-15T14:30:00Z",
+      "content": "Le password più comuni in Italia nel 2023 sono spaventosamente uguali a quelle del 2022, e al di là di questo sono tutte così banali e prevedibili da essere, ovviamente, altamente insicure. Prima di … [+2952 chars]",
+      "id": 3
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Corriere.it"
+      },
+      "author": "Giovanni Bruno*",
+      "title": "Sabato 18 novembre la Colletta Alimentare: «Diciamo no alla povertà»",
+      "description": "Torna in tutta Italia la giornata nazionale della Fondazione Banco Alimentare. La rete conta 7.600 organizzazioni partner in tutta Italia",
+      "url": "https://www.corriere.it/buone-notizie/23_novembre_16/sabato-18-novembre-colletta-alimentare-diciamo-no-poverta-c27da8be-7c8c-11ee-90f0-2d45ce928adc.shtml",
+      "urlToImage": "https://images2.corriereobjects.it/methode_image/socialshare/2023/11/06/2e76779e-7c92-11ee-90f0-2d45ce928adc.jpg",
+      "publishedAt": "2023-11-17T05:42:35Z",
+      "content": "di Giovanni Bruno*Torna in tutta Italia la giornata nazionale della Fondazione Banco Alimentare. La rete conta 7.600 organizzazioni partner in tutta Italia \r\n In Italia la povertà assoluta sta cresce… [+2022 chars]",
+      "id": 4
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Smartworld.it"
+      },
+      "author": "Antonio Lepore",
+      "title": "TCL 40 NXTPAPER in Italia: caratteristiche e prezzo degli smartphone con display \"effetto carta\"",
+      "description": "TCL ha ufficializzato il lancio in Italia dei nuovi smartphone TCL 40 NXTPAPER 4G e 5G e del tablet TCL NXTPAPER 11 con la tecnologia display...\r\nL'articolo TCL 40 NXTPAPER in Italia: caratteristiche e prezzo degli smartphone con display \"effetto carta\" sembr…",
+      "url": "https://www.smartworld.it/news/tcl-40-nxtpaper-italia.html",
+      "urlToImage": "https://www.smartworld.it/images/2023/11/10/tcl-nxtpaper_1200x675.png",
+      "publishedAt": "2023-11-10T18:56:00Z",
+      "content": "TCL ha ufficializzato il lancio in Italia dei nuovi smartphone TCL 40 NXTPAPER 4G e 5G e del tablet TCL NXTPAPER 11 con la tecnologia display sviluppata internamente. In particolare, questi dispositi… [+2543 chars]",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "email": "test@test.it",
+      "password": "$2a$10$HLmmDf7Z5bww0AUFqyWh6evJ4kGKbM55jTOEZP2QjcUUKMH.A7hIW",
+      "id": 1
+    },
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$zchC9GL3HEPxmNeUz415PeHw.TFcxkupf9DOplaf2BcHNWYgVTmt2",
+      "id": 2
+    }
+  ]
+}

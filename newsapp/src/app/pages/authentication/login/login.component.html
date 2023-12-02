@@ -1,0 +1,47 @@
+<div class="border border-secondary border-2 rounded p-3" >
+          <form [formGroup]="loginForm" (ngSubmit)="onLogin()" >
+            <div class="mb-3">
+              <label for="email" class="form-label"> Email </label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="name@example.com"
+                formControlName="email"
+              />
+              <span *ngIf="loginForm.controls.email.touched
+                          && loginForm.controls.email.errors?.['required']"
+              class="error-message">
+                Il campo email è obbligatorio
+              </span>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label"> Password </label>
+              <div class="input-group">
+                <input
+                  [type]="isPasswordVisible ? 'text' : 'password'"
+                  class="form-control"
+                  id="password"
+                  formControlName="password"
+                />
+                <button
+                class="btn btn-outline-secondary"
+                type="button"
+                id="button-addon2"
+                (click)="isPasswordVisible = !isPasswordVisible"
+              >
+                {{ isPasswordVisible ? 'Hide' : 'Show' }}
+              </button>
+              
+              </div>
+              <span *ngIf="loginForm.controls.password.touched
+              && loginForm.controls.password.errors?.['required']"
+              class="error-message">
+              Il campo password è obbligatorio
+            </span>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn btn-success" [disabled]="!loginForm.valid">Login</button>
+            </div>
+          </form>
+</div>

@@ -1,0 +1,21 @@
+<app-nav-bar [nome1]="'Torna Indietro'" [navigation1]="'/news'" [salute]="'Utente :  '" [testo]="nomeUtente"></app-nav-bar>
+
+    <div class="container m-2 p-3">
+        <div class="row">
+          <div *ngFor="let news of listaNotizieSalvate">
+
+            <div class="card mt-2">
+              <div class="card-header">
+                <h3 class="card-title">{{news.title}}</h3>
+              </div>
+              <div class="card-body">
+                <p class="card-text">{{news.description}}</p>
+              </div> 
+              <div class="card-footer">
+                <b class="text-danger pointer" (click)="delete(news)" ><u>Cancella la notizia</u></b>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
